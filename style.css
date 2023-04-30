@@ -12,7 +12,8 @@ textarea {
     padding: 17px;
 }
 .container {
-    width: 70vw;
+    width: 100%;
+    max-width: 2000px;
     padding-top: 7vh;
     margin: auto;
 }
