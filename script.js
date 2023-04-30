@@ -17,7 +17,7 @@ function convertTextarea() {
 
     let textarea = document.getElementById("mainInput").value;
     console.log(textarea);
-    let textArray = textarea.split('/[\s\n]+/');
+    let textArray = textarea.split(/\s/);
 
     let nono = ["stone", "stones", "pound", "pounds", "ounce", "ounces", "kilogram", "kilograms", "kg", "kg.", "oz", "oz.", "lb", "lb.", "st", "st.", " ", "", "\n"];
 
