@@ -28,6 +28,8 @@ function convertTextarea() {
         }
     }
 
+    console.log(textArray)
+
     let convertedText = stoneToPounds(textArray);
     document.getElementById("mainOutput").value = stringifyArray(convertedText);
 
