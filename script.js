@@ -19,7 +19,7 @@ function convertTextarea() {
     console.log(textarea);
     let textArray = textarea.split(' ');
 
-    let nono = ["stone", "stones", "pound", "pounds", "ounce", "ounces", "kilogram", "kilograms", "kg", "kg.", "oz", "oz.", "lb", "lb.", "st", "st.", " ", "\n"];
+    let nono = ["stone", "stones", "pound", "pounds", "ounce", "ounces", "kilogram", "kilograms", "kg", "kg.", "oz", "oz.", "lb", "lb.", "st", "st.", " ", "", "\n"];
 
     for (let i = 0; i < textArray.length; i++) {
         if (nono.includes(textArray[i].toLowerCase())) {
