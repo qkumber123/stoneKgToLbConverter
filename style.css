@@ -8,7 +8,7 @@ textarea {
     resize: none; 
     height: 450px;
     width: 100%;
-    font-size: 27px;
+    font-size: 18px;
     padding: 17px;
 }
 .container {
@@ -30,7 +30,7 @@ textarea {
     height: 13%;
     margin-top: 13px;
 
-    background-color: #db4d10; /* Green */
+    background-color: #db4d10; 
     border-radius: 7px;
     border-color: rgb(56, 56, 56);
     border-style: dashed;
