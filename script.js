@@ -28,6 +28,13 @@ function convertTextarea() {
         }
     }
 
+    for (let i = 0; i < textArray.length; i++) {
+        let oldWord = textArray[i]
+        let newWord = oldWord.replace(/,/, ".")
+        
+        textArray[i] = newWord
+    }
+
     console.log(textArray)
 
     let convertedText = stoneToPounds(textArray);
