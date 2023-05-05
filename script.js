@@ -17,8 +17,8 @@ function convertTextarea() {
 
     let textarea = document.getElementById("mainInput").value;
     console.log(textarea);
-    // let textArray = textarea.split(/\s/);
-    let textArray = textarea.split(/ |kg\n|Kg\n|KG\n|kg.\n|Kg.\n|KG.\n|lb\n|Lb\n|LB\n|lb.\n|Lb.\n|LB.\n/);
+    let textArray = textarea.split(/\s/);
+    // let textArray = textarea.split(/ |kg\n|Kg\n|KG\n|kg.\n|Kg.\n|KG.\n|lb\n|Lb\n|LB\n|lb.\n|Lb.\n|LB.\n/);
 
     let nono = ["stone", "stones", "pound", "pounds", "ounce", "ounces", "kilogram", "kilograms", "kg", "kg.", "oz", "oz.", "lb", "lb.", "st", "st.", " ", ""];
 
